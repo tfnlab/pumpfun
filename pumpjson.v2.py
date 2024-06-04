@@ -20,7 +20,7 @@ def save_csv(df, filename):
 
 def main():
     # Load CSV file if it exists
-    csv_filename = "coin_data.csv"
+    csv_filename = "tokendata/coin_data.csv"
     existing_df = load_csv(csv_filename)
 
     base_url = "https://client-api-2-74b1891ee9f9.herokuapp.com/coins"
